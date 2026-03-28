@@ -10,13 +10,12 @@ namespace ConsoleApp2;
 
 internal class Livro
 {
-
     [JsonPropertyName("titulo")]
     public string? Titulo { get; }
     [JsonPropertyName("autor")]
     public string? Autor { get; }
     [JsonPropertyName("ano_publicacao")]
-    public string? AnoPublicacao { get; set; }
+    public int AnoPublicacao { get; set; }
     [JsonPropertyName("genero")]
     public string? Genero { get; }
     [JsonPropertyName("paginas")]

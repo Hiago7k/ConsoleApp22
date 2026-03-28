@@ -9,7 +9,4 @@ namespace ConsoleApp2;
 internal class Livros
 {
     public List<Livros> ListaDeLivros {get; }
-
-
-    public string? NomeTeste { get;  }
 }

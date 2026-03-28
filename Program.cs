@@ -6,12 +6,11 @@ using (HttpClient httpClient = new HttpClient())
 {
 
     try {
-        Livro livro = new Livro();
         string resposta = await httpClient.GetStringAsync("https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Livros.json");
         var livros = JsonSerializer.Deserialize<List<Livro>>(resposta)!;
         LinqFilter filtrinho = new LinqFilter();
-        LinqFilter.FiltroDoLivro(livros);
-
+        //LinqFilter.FiltroDoLivro(livros);
+        LinqFilter.FiltrandoPorNome(livros);
     }
     catch (Exception ex) 
     {

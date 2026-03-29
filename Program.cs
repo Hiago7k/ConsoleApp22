@@ -11,6 +11,7 @@ using (HttpClient httpClient = new HttpClient())
         LinqFilter filtrinho = new LinqFilter();
         //LinqFilter.FiltroDoLivro(livros);
         LinqFilter.FiltrandoPorNome(livros);
+        Console.WriteLine("Streak");
     }
     catch (Exception ex) 
     {

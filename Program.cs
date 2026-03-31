@@ -13,6 +13,7 @@ using (HttpClient httpClient = new HttpClient())
         LinqFilter.FiltrandoPorNome(livros);
         Console.WriteLine("Streak");
         Console.WriteLine("A");
+        Console.WriteLine("B");
     }
     catch (Exception ex) 
     {

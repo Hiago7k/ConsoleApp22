@@ -14,6 +14,7 @@ using (HttpClient httpClient = new HttpClient())
         Console.WriteLine("Streak");
         Console.WriteLine("A");
         Console.WriteLine("B");
+        Console.WriteLine("B");
     }
     catch (Exception ex) 
     {

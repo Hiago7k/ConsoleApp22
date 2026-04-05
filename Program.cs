@@ -17,6 +17,8 @@ using (HttpClient httpClient = new HttpClient())
         Console.WriteLine("B");
         Console.WriteLine("B");
         Console.WriteLine("C");
+        Console.WriteLine("D");
+        Console.WriteLine("D");
     }
     catch (Exception ex) 
     {
